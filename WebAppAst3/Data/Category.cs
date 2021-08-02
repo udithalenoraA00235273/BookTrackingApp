@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WebAppAst3.Data
 {
-    public class BookClub
+    public class Category
     {
     }
 }
