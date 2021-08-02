@@ -11,6 +11,7 @@ namespace WebAppAst3.Migrations
                 columns: table => new
                 {
                     Type = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Type = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
