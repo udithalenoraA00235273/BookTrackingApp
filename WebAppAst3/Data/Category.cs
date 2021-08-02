@@ -8,13 +8,11 @@ namespace WebAppAst3.Data
 {
     public class Category
     {
-        [Key]
-        public int CategoryId { get; set; }
      
         [Key]
         public String NameToken { get; set; }
 
-        public int CategoryTypeId { get; set; }
+        public String Type { get; set; }
         public CategoryType CategoryType { get; set; }
 
         public String Description { get; set; }

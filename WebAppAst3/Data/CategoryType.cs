@@ -8,8 +8,7 @@ namespace WebAppAst3.Data
 {
     public class CategoryType
     {
-        [Key]
-        public int CategoryTypeId { get; set; }
+
         
         [Key]
         public String Type { get; set; }

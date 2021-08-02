@@ -13,7 +13,7 @@ namespace WebAppAst3.Data
 
         public String Title { get; set; }
 
-        public int CategoryId { get; set; }
+        public String NameToken { get; set; }
         public Category Category { get; set; }
 
         public String Author { get; set; }
